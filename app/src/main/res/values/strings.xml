@@ -1,11 +1,11 @@
 <resources>
 
-    <string name="app_name">OXOO</string>
+    <string name="app_name">Burmese Subtitles</string>
     <!--app_title for main navigation & home title-->
-    <string name="app_title">OXOO - Live TV &amp; Movie</string>
-    <string name="app_version">1.2.3</string>
-    <string name="contact_email">info@spagreen.net</string>
-    <string name="copyright_text">Copyright @ Spagreen \nAll right reserved</string>
+    <string name="app_title">Burmese Subtitles </string>
+    <string name="app_version">1.0.0</string>
+    <string name="contact_email">burmesesubtitles@gmail.com</string>
+    <string name="copyright_text">Copyright @ Burmese Subtitles \nAll right reserved</string>
     <!--    Facebook Login-->
     <string name="facebook_app_id">2636609453333120</string>
     <string name="fb_login_protocol_scheme">fb2636609453333120</string>
