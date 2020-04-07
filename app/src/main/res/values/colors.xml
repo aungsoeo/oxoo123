@@ -3,6 +3,7 @@
     <color name="colorPrimary">#ED1C24</color>
     <color name="colorPrimaryDark">#8F012A</color>
     <color name="colorAccent">#FF5733</color>
+    <!--add bs color -->
     <color name="bsred">#FF0000</color>
 
     <!--for tv-->
