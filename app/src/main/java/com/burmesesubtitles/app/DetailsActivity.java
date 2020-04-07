@@ -1808,7 +1808,7 @@ public class DetailsActivity extends AppCompatActivity implements CastPlayer.Ses
                         }
                     }
                     setGenreText();
-                    //set realease year, imdb rating
+                    //set realease year, imdb rating for bs
                     dGenryTv.setText( singleDetails.getRelease().substring(0,4)+"  |  IMDB - "+singleDetails.getImdb().toString()+"/10");
 
 
@@ -1942,7 +1942,7 @@ public class DetailsActivity extends AppCompatActivity implements CastPlayer.Ses
                     tvRelease.setText("Release On " + singleDetails.getRelease());
                     tvDes.setText(singleDetails.getDescription());
 
-                    //set realease year, imdb rating
+                    //set realease year, imdb rating for bs
                     dGenryTv.setText( singleDetails.getRelease().substring(0,4)+"  |  IMDB - "+singleDetails.getImdb().toString()+"/10");
 
 
