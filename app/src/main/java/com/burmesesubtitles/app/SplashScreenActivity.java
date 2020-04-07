@@ -61,7 +61,7 @@ public class SplashScreenActivity extends AppCompatActivity {
         //print keyHash for facebook login
        // createKeyHash(SplashScreenActivity.this, BuildConfig.APPLICATION_ID);
 
-        //loading progress
+        // set spinkit loading progress
         ProgressBar progressBar = (ProgressBar)findViewById(R.id.progress);
         Sprite threeBounce = new ThreeBounce();
         progressBar.setIndeterminateDrawable(threeBounce);
