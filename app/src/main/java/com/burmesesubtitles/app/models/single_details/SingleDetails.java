@@ -265,7 +265,7 @@ public class SingleDetails {
         this.relatedTvseries = relatedTvseries;
     }
 
-    //imdb rating
+    // getter/setter for imdb rating
     public String getImdb() {
         return imdb_rating;
     }
