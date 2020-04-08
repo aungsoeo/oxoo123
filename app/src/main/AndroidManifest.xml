@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.burmesesubtitles.app"
+    package="com.burmesesubtitle.app"
     tools:ignore="MissingLeanbackLauncher">
 
 
@@ -21,7 +21,7 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
-        android:name="com.burmesesubtitles.app.utils.MyAppClass"
+        android:name="com.burmesesubtitle.app.utils.MyAppClass"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -31,24 +31,24 @@
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
 
-        <activity android:name="com.burmesesubtitles.app.SearchActivity" />
-        <activity android:name="com.burmesesubtitles.app.FirebaseSignUpActivity" />
-        <activity android:name="com.burmesesubtitles.app.EventPaymentStripeActivity" />
+        <activity android:name="com.burmesesubtitle.app.SearchActivity" />
+        <activity android:name="com.burmesesubtitle.app.FirebaseSignUpActivity" />
+        <activity android:name="com.burmesesubtitle.app.EventPaymentStripeActivity" />
 
         <activity
-            android:name="com.burmesesubtitles.app.TestActivity"
+            android:name="com.burmesesubtitle.app.TestActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.burmesesubtitles.app.SearchFilterActivity"
+            android:name="com.burmesesubtitle.app.SearchFilterActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.burmesesubtitles.app.PapalPaymentActivity"
+            android:name="com.burmesesubtitle.app.PapalPaymentActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.burmesesubtitles.app.WebViewActivity"
+            android:name="com.burmesesubtitle.app.WebViewActivity"
             android:screenOrientation="fullSensor" />
 
         <meta-data
@@ -82,49 +82,49 @@
         <!--facebook end-->
 
         <activity
-            android:name="com.burmesesubtitles.app.TermsActivity"
+            android:name="com.burmesesubtitle.app.TermsActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.burmesesubtitles.app.ReplyActivity"
+            android:name="com.burmesesubtitle.app.ReplyActivity"
             android:label="@string/title_activity_reply"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.burmesesubtitles.app.ProfileActivity"
+            android:name="com.burmesesubtitle.app.ProfileActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.burmesesubtitles.app.PassResetActivity"
+            android:name="com.burmesesubtitle.app.PassResetActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.burmesesubtitles.app.SearchResultActivity"
+            android:name="com.burmesesubtitle.app.SearchResultActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.burmesesubtitles.app.SignUpActivity"
+            android:name="com.burmesesubtitle.app.SignUpActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.burmesesubtitles.app.LoginActivity"
+            android:name="com.burmesesubtitle.app.LoginActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.burmesesubtitles.app.DetailsActivity"
+            android:name="com.burmesesubtitle.app.DetailsActivity"
             android:configChanges="screenLayout|screenSize|orientation"
             android:label="@string/title_activity_details"
             android:theme="@style/AppTheme.NoActionBar" /> <!-- android:configChanges="screenLayout|screenSize|orientation" -->
         <activity
-            android:name="com.burmesesubtitles.app.MainActivity"
+            android:name="com.burmesesubtitle.app.MainActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name="com.burmesesubtitles.app.SettingsActivity"
+            android:name="com.burmesesubtitle.app.SettingsActivity"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.burmesesubtitles.app.SplashScreenActivity"
+            android:name="com.burmesesubtitle.app.SplashScreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="fullSensor">
             <intent-filter>
@@ -134,32 +134,32 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.burmesesubtitles.app.ItemMovieActivity"
+            android:name="com.burmesesubtitle.app.ItemMovieActivity"
             android:label="@string/title_activity_item_show"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.burmesesubtitles.app.ItemTVActivity"
+            android:name="com.burmesesubtitle.app.ItemTVActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.burmesesubtitles.app.ItemSeriesActivity"
+            android:name="com.burmesesubtitle.app.ItemSeriesActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.burmesesubtitles.app.SubscriptionActivity"
+            android:name="com.burmesesubtitle.app.SubscriptionActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.burmesesubtitles.app.StripePaymentActivity"
+            android:name="com.burmesesubtitle.app.StripePaymentActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.burmesesubtitles.app.PurchasePlanActivity"
+            android:name="com.burmesesubtitle.app.PurchasePlanActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.burmesesubtitles.app.DownloadActivity"
+            android:name="com.burmesesubtitle.app.DownloadActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
 

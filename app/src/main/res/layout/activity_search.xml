@@ -205,7 +205,7 @@
                 android:layout_marginTop="@dimen/spacing_large"
                 android:orientation="vertical">
 
-                <com.burmesesubtitles.app.widget.RangeSeekBar
+                <com.burmesesubtitle.app.widget.RangeSeekBar
                     android:id="@+id/range_seek_bar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
