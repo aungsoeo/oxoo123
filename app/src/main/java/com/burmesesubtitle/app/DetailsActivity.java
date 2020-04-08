@@ -1942,6 +1942,8 @@ public class DetailsActivity extends AppCompatActivity implements CastPlayer.Ses
                     tvRelease.setText("Release On " + singleDetails.getRelease());
                     tvDes.setText(singleDetails.getDescription());
 
+
+//                    Toast.makeText(getApplicationContext(),"IMDB"+singleDetails.getImdb().toString(),Toast.LENGTH_SHORT).show();
                     //set realease year, imdb rating for bs
                     dGenryTv.setText( singleDetails.getRelease().substring(0,4)+"  |  IMDB - "+singleDetails.getImdb().toString()+"/10");
 

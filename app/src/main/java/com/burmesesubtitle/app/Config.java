@@ -3,10 +3,10 @@ package com.burmesesubtitle.app;
 public class Config {
 
     // copy your api url from php admin dashboard & paste below
-    public static final String API_SERVER_URL = "https://app.burmesesubtitles.com/backend/rest-api/";
+    public static final String API_SERVER_URL = "https://app.burmesesubtitles.com/appbackend/rest-api/";
 
     //copy your api key from php admin dashboard & paste below
-    public static final String API_KEY = "t7h7f90egre0yqa0ny5hp864";
+    public static final String API_KEY = "mtf32vjgdxqx1r28zre5c8lo";
 
     //copy your terms url from php admin dashboard & paste below
     public static final String TERMS_URL = "https://app.burmesesubtitles.com/backend/terms/";
