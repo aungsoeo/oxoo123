@@ -1822,6 +1822,8 @@ public class DetailsActivity extends AppCompatActivity implements CastPlayer.Ses
                         models.setId(relatedTvSeries.getVideosId());
                         models.setVideoType("tvseries");
                         models.setIsPaid(relatedTvSeries.getIsPaid());
+                        models.setReleaseDate(relatedTvSeries.getRelease());
+                        models.setQuality(relatedTvSeries.getVideoQuality());
                         listRelated.add(models);
                     }
                     if (listRelated.size() == 0) {
@@ -2047,6 +2049,8 @@ public class DetailsActivity extends AppCompatActivity implements CastPlayer.Ses
                         models.setVideoType("movie");
                         models.setIsPaid(relatedMovie.getIsPaid());
                         models.setIsPaid(relatedMovie.getIsPaid());
+                        models.setReleaseDate(relatedMovie.getRelease());
+                        models.setQuality(relatedMovie.getVideoQuality());
                         listRelated.add(models);
                     }
 
